@@ -16,7 +16,7 @@ Code for Musala (not [the mountain peak](https://en.wikipedia.org/wiki/Musala)).
 
 ### PIR sensor
 
-![](musala_pir.jpg]
+![](musala_pir.jpg)
 
 ### Speaker
 
