@@ -4,10 +4,23 @@ Code for Musala (not [the mountain peak](https://en.wikipedia.org/wiki/Musala)).
 
 ## Hardware
 
- * SparkFun RedBoard
- * SparkFun Qwiic MP3 Trigger
- * PIR sensor
- * Speaker
+![](musala_all.jpg)
+
+### SparkFun RedBoard
+
+![](musala_board.jpg)
+
+### SparkFun Qwiic MP3 Trigger
+
+![](musala_mp3_board.jpg)
+
+### PIR sensor
+
+![](musala_pir.jpg
+
+### Speaker
+
+[no picture]
 
 ## Behavior
 
