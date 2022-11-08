@@ -12,6 +12,8 @@ Code for Musala (not [the mountain peak](https://en.wikipedia.org/wiki/Musala)).
 
 ### SparkFun Qwiic MP3 Trigger
 
+The upper two wires go to the speaker.
+
 ![](musala_mp3_board.jpg)
 
 ### PIR sensor
