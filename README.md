@@ -2,6 +2,13 @@
 
 Code for Musala
 
+## Hardware
+
+ * SparkFun RedBoard
+ * SparkFun Qwiic MP3 Trigger
+ * PIR sensor
+ * Speaker
+
 ## Behavior
 
 The machine has three states:
