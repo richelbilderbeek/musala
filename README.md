@@ -2,6 +2,23 @@
 
 Code for Musala (not [the mountain peak](https://en.wikipedia.org/wiki/Musala)).
 
+ * Video: [YouTube](https://youtu.be/oQGVXa6WpLo)
+
+## Behavior
+
+```mermaid
+graph TD;
+    1((Warming up))-->2;
+    2((Waiting for movement))-->|Movement|3
+    3((Playing music))-->|Played music|2
+```
+
+State               |LED                       |Music
+--------------------|--------------------------|---------------------------------------
+Warming up          |Blinking longer and longer|Playing longer and longer at low volume
+Waiting for movement|Off                       |Off
+Playing music       |Blinking longer and longer|Playing at full volume
+
 ## Hardware
 
 ![](musala_all.jpg)
@@ -24,24 +41,15 @@ The upper two wires go to the speaker.
 
 [no picture]
 
-## Behavior
+## Warming up times
 
-```mermaid
-graph TD;
-    1((Warming up))-->2;
-    2((Waiting for movement))-->|Movement|3
-    3((Playing music))-->|Played music|2
-```
+This is the time until the fragments of music started playing,
+which I measured in [booting_times.csv](booting_times.csv).
+The mean is around 40 seconds. The highest value ever measured is 69 seconds,
+hence the warming up time is set to 70 seconds.
 
-State               |LED                       |Music
---------------------|--------------------------|---------------------------------------
-Warming up          |Blinking longer and longer|Playing longer and longer at low volume
-Waiting for movement|Off                       |Off
-Playing music       |Blinking longer and longer|Playing at full volume
-
-## Booting times
-
-See [booting_times.csv](booting_times.csv).
+Note that maybe before 40 seconds, the music **is** playing,
+yet there is no sound at that starting part. It is irrelevant.
 
 ## Connections
 
