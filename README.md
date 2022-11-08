@@ -54,6 +54,7 @@ Arduino 12            |PIR out
 ### Port not found
 
  * Ubuntu 22.04 Jammy Jellyfish LTS
+ * Arduino IDE v2.0.1 [Linux 64 bit AppImage](https://github.com/arduino/arduino-ide/releases/download/2.0.1/arduino-ide_2.0.1_Linux_64bit.AppImage)
 
 Earlier reported at [here](https://forum.arduino.cc/t/arduino-ide-2-0-not-showing-ports/858267/13)
 
