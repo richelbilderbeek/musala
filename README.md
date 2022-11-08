@@ -1,6 +1,6 @@
 # musala
 
-Code for Musala
+Code for Musala (not [the mountain peak](https://en.wikipedia.org/wiki/Musala)).
 
 ## Hardware
 
