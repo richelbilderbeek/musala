@@ -51,11 +51,13 @@ Arduino 12            |PIR out
 
 ### Troubleshooting
 
-Port not found
+### Port not found
+
+ * Ubuntu 22.04 Jammy Jellyfish LTS
 
 Earlier reported at [here](https://forum.arduino.cc/t/arduino-ide-2-0-not-showing-ports/858267/13)
 
-Ideed:
+Indeed:
 
 ```
 sudo dmesg -w
